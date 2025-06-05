@@ -7,7 +7,9 @@
   "startup": "application",
   "boot": "auto",
   "arch": [
-    "armv7"
+    "armv7",
+    "aarch64",
+    "amd64"
   ],
   "init": false,
   "panel_icon": "mdi:alpha-m-circle",
