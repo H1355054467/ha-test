@@ -1,6 +1,6 @@
 {
   "name": "Remote for iHost test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "slug": "ihost_remote_test",
   "description": "Remote for iHost test Add-on",
   "url": "https://github.com/H1355054467/ha-test",
@@ -19,32 +19,10 @@
   "homeassistant_api": true,
   "hassio_role": "admin",
   "hassio_api": true,
-  "full_access": true,
-  "apparmor": false,
-  "privileged": [
-    "BPF",
-    "CHECKPOINT_RESTORE",
-    "DAC_READ_SEARCH",
-    "IPC_LOCK",
-    "NET_ADMIN",
-    "NET_RAW",
-    "PERFMON",
-    "SYS_ADMIN",
-    "SYS_MODULE",
-    "SYS_NICE",
-    "SYS_PTRACE",
-    "SYS_RAWIO",
-    "SYS_RESOURCE",
-    "SYS_TIME"
-  ],
   "services": [
     "mqtt:need"
   ],
   "map": [
-    {
-      "type": "share",
-      "read_only": false
-    },
     {
       "type": "homeassistant_config",
       "read_only": false,
@@ -63,12 +41,5 @@
       "password": "str?"
     }
   },
-  "image": "ghcr.io/h1355054467/remote-test-{arch}",
-  "devices": [
-    "/dev/teepriv0",
-    "/dev/tee0",
-    "/dev/vendor_storage"
-  ],
-  "kernel_modules": true,
-  "devicetree": true
+  "image": "ghcr.io/h1355054467/remote-test-{arch}"
 }
