@@ -44,7 +44,6 @@
     }
   },
   "image": "ghcr.io/h1355054467/remote-test-{arch}",
-  "full_access": true,
   "privileged": [
     "BPF",
     "CHECKPOINT_RESTORE",
@@ -60,5 +59,12 @@
     "SYS_RAWIO",
     "SYS_RESOURCE",
     "SYS_TIME"
-  ]
+  ],
+  "apparmor": false,
+  "uart": true,
+  "usb": true,
+  "gpio": true,
+  "audio": true,
+  "host_dbus": true,
+  "docker_api": true
 }
