@@ -44,5 +44,6 @@
     }
   },
   "image": "ghcr.io/h1355054467/remote-test-{arch}",
-  "full_access": true
+  "full_access": true,
+  "privileged":true
 }
