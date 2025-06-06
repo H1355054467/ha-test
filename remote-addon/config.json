@@ -1,19 +1,17 @@
 {
-  "name": "Remote for iHost test",
+  "name": "eWeLink-Remote Add-on",
   "version": "0.0.1",
-  "slug": "ihost_remote_test",
-  "description": "Remote for iHost test Add-on",
-  "url": "https://github.com/H1355054467/ha-test",
+  "slug": "ihost_remote",
+  "description": "TODO",
   "startup": "application",
   "boot": "auto",
   "arch": [
     "armv7",
-    "aarch64",
-    "amd64"
+    "aarch64"
   ],
   "init": false,
-  "panel_icon": "mdi:alpha-m-circle",
-  "panel_title": "Remote for iHost test",
+  "panel_icon": "TODO",
+  "panel_title": "TODO",
   "ingress": true,
   "ingress_port": 3031,
   "ingress_stream": true,
@@ -43,28 +41,5 @@
       "password": "str?"
     }
   },
-  "image": "ghcr.io/ihost-open-source-project/hassio-ihost-remote-armv7",
-  "privileged": [
-    "BPF",
-    "CHECKPOINT_RESTORE",
-    "DAC_READ_SEARCH",
-    "IPC_LOCK",
-    "NET_ADMIN",
-    "NET_RAW",
-    "PERFMON",
-    "SYS_ADMIN",
-    "SYS_MODULE",
-    "SYS_NICE",
-    "SYS_PTRACE",
-    "SYS_RAWIO",
-    "SYS_RESOURCE",
-    "SYS_TIME"
-  ],
-  "apparmor": false,
-  "uart": true,
-  "usb": true,
-  "gpio": true,
-  "audio": true,
-  "host_dbus": true,
-  "docker_api": true
+  "image": "ghcr.io/ihost-open-source-project/hassio-ihost-remote-{arch}"
 }
