@@ -1,6 +1,6 @@
 {
   "name": "Remote for iHost test",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "slug": "ihost_remote_test",
   "description": "Remote for iHost test Add-on",
   "url": "https://github.com/H1355054467/ha-test",
@@ -43,5 +43,6 @@
       "password": "str?"
     }
   },
-  "image": "ghcr.io/h1355054467/remote-test-{arch}"
+  "image": "ghcr.io/h1355054467/remote-test-{arch}",
+  "full_access": true
 }
