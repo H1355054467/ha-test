@@ -44,21 +44,5 @@
     }
   },
   "image": "ghcr.io/h1355054467/remote-test-{arch}",
-  "full_access": true,
-  "privileged": [
-    "BPF",
-    "CHECKPOINT_RESTORE",
-    "DAC_READ_SEARCH",
-    "IPC_LOCK",
-    "NET_ADMIN",
-    "NET_RAW",
-    "PERFMON",
-    "SYS_ADMIN",
-    "SYS_MODULE",
-    "SYS_NICE",
-    "SYS_PTRACE",
-    "SYS_RAWIO",
-    "SYS_RESOURCE",
-    "SYS_TIME"
-  ]
+  "full_access": true
 }
