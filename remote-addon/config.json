@@ -2,7 +2,7 @@
   "name": "eWeLink-Remote Add-on",
   "version": "0.0.1",
   "slug": "ihost_remote",
-  "description": "TODO",
+  "description": "eWeLink-Remote Add-on supports adding eWeLink-Remote sub-devices R5, R5W, S-Mate, S-Mate2 to Home Assistant as trigger conditions for automation",
   "startup": "application",
   "boot": "auto",
   "arch": [
@@ -10,8 +10,8 @@
     "aarch64"
   ],
   "init": false,
-  "panel_icon": "TODO",
-  "panel_title": "TODO",
+  "panel_icon": "mdi:signal-variant",
+  "panel_title": "eWeLink-Remote",
   "ingress": true,
   "ingress_port": 3031,
   "ingress_stream": true,
