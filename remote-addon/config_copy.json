@@ -27,6 +27,9 @@
       "type": "homeassistant_config",
       "read_only": false,
       "path": "/config"
+    },
+    {
+      "path": "/var/lib/bluetooth"
     }
   ],
   "options": {
@@ -41,5 +44,27 @@
       "password": "str?"
     }
   },
-  "image": "ghcr.io/h1355054467/remote-test-{arch}"
+  "image": "ghcr.io/h1355054467/remote-test-{arch}",
+  "devices": [
+    "/dev"
+  ],
+  "host_dbus": true,
+  "apparmor": false,
+  "full_access": true,
+  "privileged": [
+    "BPF",
+    "CHECKPOINT_RESTORE",
+    "DAC_READ_SEARCH",
+    "IPC_LOCK",
+    "NET_ADMIN",
+    "NET_RAW",
+    "PERFMON",
+    "SYS_ADMIN",
+    "SYS_MODULE",
+    "SYS_NICE",
+    "SYS_PTRACE",
+    "SYS_RAWIO",
+    "SYS_RESOURCE",
+    "SYS_TIME"
+  ]
 }
