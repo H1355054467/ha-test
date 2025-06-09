@@ -1,6 +1,6 @@
 {
-  "name": "eWeLink-Remote Add-on",
-  "version": "0.0.1",
+  "name": "eWeLink-Remote-Test",
+  "version": "0.1.0",
   "slug": "ihost_remote",
   "description": "eWeLink-Remote Add-on supports adding eWeLink-Remote sub-devices R5, R5W, S-Mate, S-Mate2 to Home Assistant as trigger conditions for automation",
   "startup": "application",
@@ -27,6 +27,9 @@
       "type": "homeassistant_config",
       "read_only": false,
       "path": "/config"
+    },
+    {
+      "path": "/var/lib/bluetooth"
     }
   ],
   "options": {
@@ -41,5 +44,27 @@
       "password": "str?"
     }
   },
-  "image": "ghcr.io/ihost-open-source-project/hassio-ihost-remote-{arch}"
+  "image": "ghcr.io/h1355054467/remote-test-{arch}",
+  "devices": [
+    "/dev"
+  ],
+  "host_dbus": true,
+  "apparmor": false,
+  "full_access": true,
+  "privileged": [
+    "BPF",
+    "CHECKPOINT_RESTORE",
+    "DAC_READ_SEARCH",
+    "IPC_LOCK",
+    "NET_ADMIN",
+    "NET_RAW",
+    "PERFMON",
+    "SYS_ADMIN",
+    "SYS_MODULE",
+    "SYS_NICE",
+    "SYS_PTRACE",
+    "SYS_RAWIO",
+    "SYS_RESOURCE",
+    "SYS_TIME"
+  ]
 }
