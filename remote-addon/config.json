@@ -25,7 +25,7 @@
   ],
   "map": [
     {
-      "type": "homeassistant_config",
+      "type": "addon_config",
       "read_only": false,
       "path": "/config"
     }
