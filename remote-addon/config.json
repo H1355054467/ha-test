@@ -38,6 +38,11 @@
       "type": "share",
       "read_only": false,
       "path": "/addon_share"
+    },
+    {
+      "type": "addon_config",
+      "read_only": false,
+      "path": "/addon_config"
     }
   ],
   "options": {
