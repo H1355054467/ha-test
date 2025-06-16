@@ -25,16 +25,6 @@
       "type": "homeassistant_config",
       "read_only": false,
       "path": "/config"
-    },
-    {
-      "type": "addon_config",
-      "read_only": false,
-      "path": "/addon_config"
-    },
-    {
-      "type": "data",
-      "read_only": false,
-      "path": "/addon_data"
     }
   ],
   "services": [
