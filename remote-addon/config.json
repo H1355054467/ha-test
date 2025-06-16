@@ -42,5 +42,6 @@
       "password": "str?"
     }
   },
-  "image": "ghcr.io/h1355054467/remote-test-{arch}"
+  "image": "ghcr.io/h1355054467/remote-test-{arch}",
+  "host_dbus": true
 }
