@@ -23,28 +23,6 @@
   "services": [
     "mqtt:need"
   ],
-  "map": [
-    {
-      "type": "homeassistant_config",
-      "read_only": false,
-      "path": "/config"
-    },
-    {
-      "type": "all_addon_configs",
-      "read_only": false,
-      "path": "/all_addon_configs"
-    },
-    {
-      "type": "share",
-      "read_only": false,
-      "path": "/addon_share"
-    },
-    {
-      "type": "addon_config",
-      "read_only": false,
-      "path": "/addon_config"
-    }
-  ],
   "options": {
     "log_level": "Info",
     "mqtt": {}
