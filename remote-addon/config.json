@@ -42,25 +42,5 @@
       "password": "str?"
     }
   },
-  "image": "ghcr.io/h1355054467/remote-test-{arch}",
-  "host_dbus": true,
-  "apparmor": false,
-  "full_access": true,
-  "protected": false,
-  "privileged": [
-    "BPF",
-    "CHECKPOINT_RESTORE",
-    "DAC_READ_SEARCH",
-    "IPC_LOCK",
-    "NET_ADMIN",
-    "NET_RAW",
-    "PERFMON",
-    "SYS_ADMIN",
-    "SYS_MODULE",
-    "SYS_NICE",
-    "SYS_PTRACE",
-    "SYS_RAWIO",
-    "SYS_RESOURCE",
-    "SYS_TIME"
-  ]
+  "image": "ghcr.io/h1355054467/remote-test-{arch}"
 }
