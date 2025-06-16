@@ -1,6 +1,6 @@
 {
   "name": "eWeLink-Remote-Test",
-  "version": "0.5.0",
+  "version": "0.4.0",
   "slug": "ewelink_remote",
   "description": "eWeLink-Remote Add-on supports adding eWeLink-Remote sub-devices R5, R5W, S-Mate, S-Mate2 to Home Assistant as trigger conditions for automation",
   "startup": "application",
