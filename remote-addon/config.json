@@ -25,9 +25,19 @@
   ],
   "map": [
     {
-      "type": "addon_config",
+      "type": "homeassistant_config",
       "read_only": false,
       "path": "/config"
+    },
+    {
+      "type": "all_addon_configs",
+      "read_only": false,
+      "path": "/all_addon_configs"
+    },
+    {
+      "type": "share",
+      "read_only": false,
+      "path": "/addon_share"
     }
   ],
   "options": {
