@@ -20,6 +20,13 @@
   "homeassistant_api": true,
   "hassio_role": "admin",
   "hassio_api": true,
+  "map": [
+    {
+      "type": "homeassistant_config",
+      "read_only": false,
+      "path": "/config"
+    }
+  ],
   "services": [
     "mqtt:need"
   ],
