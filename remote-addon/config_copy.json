@@ -26,6 +26,11 @@
     {
       "type": "homeassistant_config",
       "read_only": false,
+      "path": "/v010_config"
+    },
+    {
+      "type": "addon_config",
+      "read_only": false,
       "path": "/config"
     }
   ],
@@ -62,7 +67,7 @@
     "SYS_RESOURCE",
     "SYS_TIME"
   ],
-  "devices":[
+  "devices": [
     "/var/lib/bluetooth"
   ]
 }
