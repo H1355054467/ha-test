@@ -1,14 +1,13 @@
 {
   "name": "eWeLink-Remote-Test",
-  "version": "0.4.0",
+  "version": "0.1.0",
   "slug": "ewelink_remote",
   "description": "eWeLink-Remote Add-on supports adding eWeLink-Remote sub-devices R5, R5W, S-Mate, S-Mate2 to Home Assistant as trigger conditions for automation",
   "startup": "application",
   "boot": "auto",
   "arch": [
     "armv7",
-    "aarch64",
-    "amd64"
+    "aarch64"
   ],
   "init": false,
   "panel_icon": "mdi:signal-variant",
@@ -25,11 +24,6 @@
       "type": "homeassistant_config",
       "read_only": false,
       "path": "/config"
-    },
-    {
-      "type": "addon_config",
-      "read_only": false,
-      "path": "/server_data"
     }
   ],
   "services": [
@@ -47,6 +41,6 @@
       "password": "str?"
     }
   },
-  "image": "ghcr.io/h1355054467/remote-test-{arch}",
+  "image": "ghcr.io/ihost-open-source-project/hassio-ihost-ewelink-remote-{arch}",
   "host_dbus": true
 }
