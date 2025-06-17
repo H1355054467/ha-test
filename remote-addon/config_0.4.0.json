@@ -1,13 +1,14 @@
 {
   "name": "eWeLink-Remote-Test",
-  "version": "0.1.0",
-  "slug": "ihost_remote",
+  "version": "0.4.0",
+  "slug": "ewelink_remote",
   "description": "eWeLink-Remote Add-on supports adding eWeLink-Remote sub-devices R5, R5W, S-Mate, S-Mate2 to Home Assistant as trigger conditions for automation",
   "startup": "application",
   "boot": "auto",
   "arch": [
     "armv7",
-    "aarch64"
+    "aarch64",
+    "amd64"
   ],
   "init": false,
   "panel_icon": "mdi:signal-variant",
@@ -19,20 +20,20 @@
   "homeassistant_api": true,
   "hassio_role": "admin",
   "hassio_api": true,
-  "services": [
-    "mqtt:need"
-  ],
   "map": [
     {
       "type": "homeassistant_config",
       "read_only": false,
-      "path": "/v010_config"
+      "path": "/config"
     },
     {
       "type": "addon_config",
       "read_only": false,
-      "path": "/config"
+      "path": "/server_data"
     }
+  ],
+  "services": [
+    "mqtt:need"
   ],
   "options": {
     "log_level": "Info",
@@ -47,27 +48,5 @@
     }
   },
   "image": "ghcr.io/h1355054467/remote-test-{arch}",
-  "host_dbus": true,
-  "apparmor": false,
-  "full_access": true,
-  "protected": false,
-  "privileged": [
-    "BPF",
-    "CHECKPOINT_RESTORE",
-    "DAC_READ_SEARCH",
-    "IPC_LOCK",
-    "NET_ADMIN",
-    "NET_RAW",
-    "PERFMON",
-    "SYS_ADMIN",
-    "SYS_MODULE",
-    "SYS_NICE",
-    "SYS_PTRACE",
-    "SYS_RAWIO",
-    "SYS_RESOURCE",
-    "SYS_TIME"
-  ],
-  "devices": [
-    "/var/lib/bluetooth"
-  ]
+  "host_dbus": true
 }
