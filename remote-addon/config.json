@@ -1,8 +1,8 @@
 {
-  "name": "eWeLink-Remote Gateway Test",
-  "version": "0.3.4",
+  "name": "eWeLink-Remote Gateway Dev",
+  "version": "0.2.5",
   "slug": "ewelink_remote",
-  "description": "eWeLink-Remote Gateway Add-on supports adding eWeLink-Remote sub-devices R5, R5W, S-Mate, S-Mate2 to Home Assistant as trigger conditions for automation",
+  "description": "eWeLink-Remote Dev Gateway Add-on supports adding eWeLink-Remote sub-devices R5, R5W, S-Mate, S-Mate2 to Home Assistant as trigger conditions for automation",
   "startup": "application",
   "boot": "auto",
   "arch": [
@@ -12,7 +12,7 @@
   ],
   "init": false,
   "panel_icon": "mdi:signal-variant",
-  "panel_title": "eWeLink-Remote Gateway Test",
+  "panel_title": "eWeLink-Remote Gateway Dev",
   "ingress": true,
   "ingress_port": 3031,
   "ingress_stream": true,

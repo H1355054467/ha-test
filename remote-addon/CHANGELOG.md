@@ -1,5 +1,13 @@
 # Changelog  
 
+## 0.2.5  
+### Added  
+- Added Bluetooth proxy support.
+
+## 0.2.4  
+### Fixed  
+- Fix the issue where the add-on fails to start when multiple Bluetooth devices are present.
+
 ## 0.2.3  
 ### Fixed  
 - Fixed add-on malfunction caused by accessing Home Assistant through the HTTPS protocol.
