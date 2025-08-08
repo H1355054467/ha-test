@@ -1,4 +1,4 @@
-# eWeLink-Remote Dev Gateway
+# eWeLink-Remote Gateway Dev
 ## 1. Introduction
 eWeLink-Remote Gateway add-on is an eWeLink-Remote Gateway gateway that supports adding eWeLink-Remote sub-devices and syncing sub-devices  to Home Assistant,such as  **[R5](https://sonoff.tech/product/smart-wall-switches/r5/),[R5W](https://sonoff.tech/product/smart-wall-switches/r5/),[S-Mate](https://sonoff.tech/product/diy-smart-switches/s-mate/),[S-Mate2](https://sonoff.tech/product/diy-smart-switches/s-mate/)**. You can select eWeLink-Remote sub-devices in Home Assistant Automations and trigger automations through single-click,double-click,and long-press events reported by eWeLink-Remote Gateway sub-devices.**[Learn more](https://sonoff.tech/news-and-events/what-is-ewelink-remote-control/)** about eWeLink-Remote.
 

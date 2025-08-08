@@ -1,4 +1,4 @@
-# eWeLink-Remote Gateway Dev Add-on
+# eWeLink-Remote Gateway Add-on Dev
 
 
 ![Supports armv7 Architecture](https://img.shields.io/badge/armv7-yes-green.svg)
